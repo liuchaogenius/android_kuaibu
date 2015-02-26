@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-005a2a67aad11cb65d009b8ab9b9949ba5188a42.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/libs/universal-image-loader-1.5.6-with-src.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aafb5f491658277c1eb3cd9801b4fa0a8b971949">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.5.6-with-src-45e4ec7803fbb5efcebdc4b6daca47c12e061f8b.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/libammsdk-a926b8a55ca3321b8af4bf79b517326557e1cece.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/libs/xUtils-2.4.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="604adce72a320783de425348e53e7802b20c3fb7">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/xUtils-2.4.7-941d81a6e8860db62feb222b7789d5be1a279daf.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.1/d8e711ae108185c59c17b36b3c3f11b20cf9b4d5/gson-2.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d8e711ae108185c59c17b36b3c3f11b20cf9b4d5">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/gson-2.2.1-6548dc9f70e52e35f0c02786cd5121bd9a11c28d.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.7/7d0f75f98b0283208d76bfd9fefebcc3257ec3bf/library-1.0.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7d0f75f98b0283208d76bfd9fefebcc3257ec3bf">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/library-1.0.7-a2141b4e7c78b0ba1b016be91619d7f47e0f7689.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/program/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6f2bb8f5e5a36ad2597fd29816820888fc89889c.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b73435bf6cb9076f6d7575b8b5b79f296b72645e.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/classes-afaa5a015d971c3afb216ef69fd1aa7f7321044b.jar" />
+    </item>
+    <item
+        jar="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/classes-3acd65550512bfeed4fe2bd076862e2f185d5dad.jar" />
+    </item>
+
+</items>

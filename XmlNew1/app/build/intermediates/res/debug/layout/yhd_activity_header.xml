@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yhd_act_header"
+    android:layout_width="fill_parent"
+    android:layout_height="47dip"
+    android:background="@color/red"
+    android:gravity="center_vertical"
+    android:padding="0.0px" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="16dip" >
+
+        <ImageView
+            android:id="@+id/yhd_act_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yi_head_back" />
+
+        <TextView            
+            android:id="@+id/yhd_act_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:button="@null"
+            android:orientation="horizontal"
+            android:text="@string/guanyutitle"
+            android:textColor="@color/white"
+            android:textSize="20.0dip" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/yhd_activity_header.xml -->

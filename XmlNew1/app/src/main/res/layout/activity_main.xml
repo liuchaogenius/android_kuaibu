@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:demoapp="http://schemas.android.com/apk/res/yu.jy.gl"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e1e1e1"
+    android:orientation="vertical" >
+
+    <!--
+<yu.jy.gl.CustomFastScrollView
+        android:id="@+id/fast_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        
+        demoapp:overlayHeight="110dp"
+        demoapp:overlayScrollThumbWidth="60dp"
+        demoapp:overlayTextSize="36dp"
+        demoapp:overlayWidth="225dp" >
+</yu.jy.gl.CustomFastScrollView>
+    -->
+
+
+    <!--
+android:dividerHeight="1dp" 
+android:fadingEdge="none"
+    -->
+
+    <ListView
+        android:id="@+id/LocalListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e2e2e2"
+        android:cacheColorHint="#00000000"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:fadingEdge="vertical"
+        android:padding="5dip"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="false" 
+        />
+
+</LinearLayout>

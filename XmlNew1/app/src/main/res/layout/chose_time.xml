@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+      <LinearLayout
+        android:id="@+id/ll_wheelview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="false"
+            android:background="#aaaaaa" >
+
+            <TextView
+                android:id="@+id/cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="取消"
+                android:textColor="#eaeaea"
+                android:clickable="false"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/finish"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:paddingRight="20dp"
+                android:text="完成"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <com.yibu.kuaibu.ui.wheelview.WheelView
+            android:id="@+id/mywheelview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="false"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
+  

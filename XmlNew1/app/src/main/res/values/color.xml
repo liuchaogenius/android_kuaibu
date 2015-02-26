@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#FF000000</color>
+	<color name="control_back">#AA00003D</color>
+	<color name="list_divider">#CFCFCF</color>
+	
+	
+	<color name="bind_cancel_press">#ffd65284</color>
+	<color name="expert_top_tv_normal">#ffef71a1</color>
+	<color name="list_bg">#eeeeee</color>
+	<color name="redcode">#ff4100</color>
+	<color name="btn_bg">#ff4100</color>
+	<color name="vip_line">#ff000c</color>
+	<color name="type_code">#999999</color>
+</resources>

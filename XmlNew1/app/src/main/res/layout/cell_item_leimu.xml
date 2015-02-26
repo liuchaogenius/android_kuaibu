@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="33dp"
+    android:weightSum="4"
+    android:background="@color/white"
+    android:id="@+id/cell4"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="76dp" android:layout_height="33dp"
+        android:background="@drawable/selector_leimu"
+        android:textSize="15dp"
+        android:textColor="@color/selector_leimu_color"
+        android:text="欧式"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="6dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="76dp" android:layout_height="33dp"
+        android:background="@drawable/selector_leimu"
+        android:textSize="15dp"
+        android:textColor="@color/selector_leimu_color"
+        android:text="欧式"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="76dp" android:layout_height="33dp"
+        android:background="@drawable/selector_leimu"
+        android:textSize="15dp"
+        android:textColor="@color/selector_leimu_color"
+        android:text="欧式"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="76dp" android:layout_height="33dp"
+        android:background="@drawable/selector_leimu"
+        android:textSize="15dp"
+        android:textColor="@color/selector_leimu_color"
+        android:text="欧sdfsdfsdf式"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        ></TextView>
+</LinearLayout>
+
+

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yibu.kuaibu"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.yibu.kuaibu.app.glApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/kuaibuicon1"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.yibu.kuaibu.app.LoadApp"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 首页 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.Ma"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yibu.kuaibu.app.Yhlogin"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <!-- 关于我们 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhAbout"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 我的采购 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhMyCaigou"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 编辑求购 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhMyCaigouDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 我的供应 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhMyGongying"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yibu.kuaibu.app.YhMyGongyingDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 个人中心 浏览商城  我的商城 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhMyStore"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.AddPicture"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 图片展示 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.ImageShowActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 查看供应（首页进入） -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.CheckSupply"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 供应详情 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.SupplyDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 发布供应 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.SupplyPublish"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 查看采购（首页进入） -->
+        <activity
+            android:name="com.yibu.kuaibu.app.caigou.CheckCaigou"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 采购详情 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.caigou.CaigouDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 发布采购 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.caigou.CaigouPublish"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 热门标题 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.InputTitleName"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 分类选择 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.SortType"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 分类选择 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.supply.ChoseTime"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CustomDialog" >
+        </activity>
+        <activity
+            android:name="com.yibu.kuaibu.app.YhFindpass"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 我的采购 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.myCaigouAndSupply.MyCaigou"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yibu.kuaibu.app.YhShangCheng"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yibu.kuaibu.app.YhShangChengOne"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 报价 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.caigou.ReportPrice"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 我的供应 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.myCaigouAndSupply.MySupply"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 个人中心 我的认证 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhRenzheng"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 个人中心   收货地址 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhDeliveryAddress"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 个人中心   修改收货地址 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhAddrmodify"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 个人中心   添加收货地址 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhAddradd"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 个人中心   我的店铺 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhWodeDianpu"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 产品详情 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhCPXiangQing"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 我的订单 -->
+
+        <activity
+            android:name="com.yibu.kuaibu.app.YhWodeOrder"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 订单详情 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.YhWodeOrderDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 评价 -->
+
+        <activity
+            android:name="com.yibu.kuaibu.app.YhPingjia"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 确认订单 -->
+
+        <activity
+            android:name="com.yibu.kuaibu.app.YhOrderConfirm"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 微信分享 -->
+        <activity
+            android:name="com.yibu.kuaibu.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 首页-类目 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.activity.LeiMuActivity"
+            android:label="首页-类目"
+            android:screenOrientation="portrait" />
+        <!-- 首页-供应 -->
+        <activity
+            android:name="com.yibu.kuaibu.app.activity.GongYingActivity"
+            android:label="首页-供应"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yibu.kuaibu.app.activity.CaiGouActivity"
+            android:label="首页-采购"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+    </application>
+
+</manifest>

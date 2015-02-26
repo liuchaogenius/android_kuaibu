@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_linearlayout_footer"
+    android:layout_width="fill_parent"
+    android:layout_height="53dip"
+    android:background="@color/foot_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+  >
+
+    <RadioGroup
+        android:id="@+id/main_footbar_group"
+        android:layout_width="fill_parent"
+        android:layout_height="53dip"
+
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main_footbar_shouye"
+            style="@style/footbar"
+            android:drawableTop="@drawable/main_footbar_shouye_style">
+            </RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_footbar_kcenter"
+            style="@style/footbar"
+            android:drawableTop="@drawable/main_footbar_tuijie_style" />
+
+        <RadioButton
+            android:id="@+id/main_footbar_gonglu"
+            style="@style/footbar"
+            android:drawableTop="@drawable/main_footbar_gonglu_style" />
+
+        <RadioButton
+            android:id="@+id/main_footbar_shezhi"
+            style="@style/footbar"
+            android:drawableTop="@drawable/main_footbar_mine_style" />
+        
+        <RadioButton
+            android:id="@+id/main_footbar_customer"
+            style="@style/footbar"
+            android:drawableTop="@drawable/main_footbar_shezhi_style" />
+    </RadioGroup>
+   
+
+</LinearLayout><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/main_footer.xml -->

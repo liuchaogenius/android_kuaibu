@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/textview_border_radius"
+        android:gravity="center_vertical"
+        android:text="哈哈哈"
+        android:paddingLeft="3dp"
+        android:maxLines="1"
+        android:textColor="@color/type_code"
+        android:textSize="14sp" />
+
+    <ImageView 
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/search_dele"
+        android:layout_alignParentRight="true"
+        />
+    
+
+</RelativeLayout>
+<!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/search_gridview_item.xml -->

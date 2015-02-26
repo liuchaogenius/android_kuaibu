@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/yhd_activity_header" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/shouye_bott_divide" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e2e2e2" >
+
+        <LinearLayout
+            android:id="@+id/mine_user_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            
+            <com.yibu.kuaibu.ui.LocalListView
+                android:id="@+id/listmine"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_bg"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none"
+                android:scrollbars="none" >
+            </com.yibu.kuaibu.ui.LocalListView>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/yhwodeorder.xml -->

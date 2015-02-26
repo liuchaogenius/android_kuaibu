@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_supply_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="#00000000"
+    android:divider="@color/list_bg"
+    android:dividerHeight="2dp"
+    android:scrollbars="none" >
+
+</ListView><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/commonlistview.xml -->

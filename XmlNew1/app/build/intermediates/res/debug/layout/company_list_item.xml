@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/test_yhdwodegongyingpic2" />
+    
+     <ImageView
+        android:id="@+id/vip_mark"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/dianpu"
+         />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/vip_mark"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="寻迪龙里布"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/vip_mark"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/vip_mark"
+            android:text="掌柜：张三"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        
+         <TextView
+            android:id="@+id/state_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/vip_mark"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/author"
+            android:text="服务态度：4.9"
+            android:textColor="@color/type_code"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:id="@+id/true_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/state_tv"
+            android:layout_toRightOf="@id/state_tv"
+            android:text="描述相符：4.9"
+            android:textColor="@color/type_code"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp" />
+
+            <ImageView 
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/downbtn1"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+</RelativeLayout><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/company_list_item.xml -->

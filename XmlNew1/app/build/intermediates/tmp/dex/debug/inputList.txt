@@ -1,0 +1,11 @@
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/classes/debug
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6f2bb8f5e5a36ad2597fd29816820888fc89889c.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/library-1.0.7-a2141b4e7c78b0ba1b016be91619d7f47e0f7689.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-005a2a67aad11cb65d009b8ab9b9949ba5188a42.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.5.6-with-src-45e4ec7803fbb5efcebdc4b6daca47c12e061f8b.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/libammsdk-a926b8a55ca3321b8af4bf79b517326557e1cece.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/gson-2.2.1-6548dc9f70e52e35f0c02786cd5121bd9a11c28d.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b73435bf6cb9076f6d7575b8b5b79f296b72645e.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/classes-afaa5a015d971c3afb216ef69fd1aa7f7321044b.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/xUtils-2.4.7-941d81a6e8860db62feb222b7789d5be1a279daf.jar
+/Users/shanksYao/Documents/work/XmlNew1/app/build/intermediates/pre-dexed/debug/classes-3acd65550512bfeed4fe2bd076862e2f185d5dad.jar

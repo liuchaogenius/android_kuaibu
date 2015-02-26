@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:background="@color/list_bg"
+    android:orientation="vertical" >
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        
+        />
+    
+
+</LinearLayout>
+<!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/fram_cart1_listitem_blank.xml -->

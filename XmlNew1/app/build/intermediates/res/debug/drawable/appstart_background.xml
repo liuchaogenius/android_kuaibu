@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+	android:src="@drawable/laojwelcome"
+	android:scaleType="fitStart"/>
+<!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/drawable/appstart_background.xml -->

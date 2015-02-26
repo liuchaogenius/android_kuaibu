@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/startpage_indicator_unfocused" />
+    <item android:state_enabled="false" android:drawable="@drawable/startpage_indicator_focused" />
+</selector><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/drawable/startpage_indicator_bg.xml -->

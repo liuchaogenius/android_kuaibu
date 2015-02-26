@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingBottom="4dip" >   
+
+    <TextView
+        android:id="@+id/Itemname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/yhd_layout_border"
+        android:text="新古典"
+        android:maxLines="1"
+        android:gravity="center" >
+    </TextView>   
+
+</RelativeLayout><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/srmbqgridview_item.xml -->

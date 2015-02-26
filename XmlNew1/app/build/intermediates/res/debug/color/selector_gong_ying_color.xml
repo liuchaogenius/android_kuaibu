@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#ff4100" android:state_pressed="true"></item>
+    <item android:color="#ff4100" android:state_selected="true"></item>
+    <item android:color="#333333"></item>
+</selector><!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/color/selector_gong_ying_color.xml -->

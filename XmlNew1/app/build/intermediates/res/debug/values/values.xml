@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="app_share_items">
+	    <item>新浪微博</item>
+	    <item>腾讯微博</item>
+    </string-array>
+    <string-array name="comment_options_1">
+	    <item>回复</item>
+    </string-array>
+    <string-array name="comment_options_2">
+	    <item>回复</item>
+	    <item>删除</item>
+    </string-array>
+    <string-array name="favorite_options">
+	    <item>取消收藏</item>
+    </string-array>
+    <string-array name="head_titles">
+	    <item>首页</item>
+	    <item>推荐</item>
+	    <item>攻略</item>
+	    <item>更多</item>
+    </string-array>
+    <string-array name="message_detail_options">
+	    <item>转发</item>
+	    <item>删除</item>
+    </string-array>
+    <string-array name="message_list_options">
+	    <item>回复</item>
+	    <item>转发</item>
+	    <item>删除</item>
+    </string-array>
+    <string-array name="post_pub_options">
+	    <item>提问</item>
+	    <item>分享</item>
+	    <item>综合</item>
+	    <item>职业</item>
+	    <item>站务</item>
+    </string-array>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr forMymat="boolean" name="auto_play"/>
+    <attr format="dimension|reference" name="childSize"/>
+    <attr format="float|reference" name="fromDegrees"/>
+    <attr format="float|reference" name="toDegrees"/>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="author_text">#0e5986</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="background">#FF000000</color>
+    <color name="bind_cancel_press">#ffd65284</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="btn_bg">#ff4100</color>
+    <color name="control_back">#AA00003D</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="detail_down_pressed_color">#96b1be</color>
+    <color name="detail_header_bg">#00AAFF</color>
+    <color name="detail_text_color">#383838</color>
+    <color name="detail_text_pressed_color">#e2e2e2</color>
+    <color name="dim_foreground_light">#808080</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#ff006eaa</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="ex_record_listview_back">#eaeaea</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="expert_top_tv_normal">#ffef71a1</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="face_bg">#eef1f4</color>
+    <color name="foot_color">#f4f4f2</color>
+    <color name="frame_button_text_nor">#033a5c</color>
+    <color name="frame_button_text_select">#FFFFFF</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="gold">#FFD700</color>
+    <color name="gray">#808080</color>
+    <color name="grayslate">#708090</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="green">#008000</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="head_color">#00a8ff</color>
+    <color name="head_text">#0e5986</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="lightblue">#0083FF</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="list_bg">#eeeeee</color>
+    <color name="list_divider">#CFCFCF</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="list_item_color">#00aaff</color>
+    <color name="listitem_black">#ff000000</color>
+    <color name="listitem_blue">#0e5986</color>
+    <color name="listitem_gray">#ff9da19e</color>
+    <color name="listitem_green">#ffe3ffc6</color>
+    <color name="listitem_greenyellow">#ff87b869</color>
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_transparent_line">#cdcdcd</color>
+    <color name="listitem_transparent_select">#ff30baff</color>
+    <color name="listitem_white">#ffffffff</color>
+    <color name="listitem_yellow">#fffaffbf</color>
+    <color name="login_regis_font_color">#00abff</color>
+    <color name="orange">#FFA500</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="redcode">#ff4100</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="regis_detail_back_color">#eaeaea</color>
+    <color name="set_line_color">#c7c7c7</color>
+    <color name="shouye_bott_divide">#d3d3d3</color>
+    <color name="shouye_bottom_back">#FFFFFF</color>
+    <color name="shouye_finish_task_name">#FFFFFF</color>
+    <color name="shouye_finish_task_num">#fff000</color>
+    <color name="shouye_todo_name">#FFFFFF</color>
+    <color name="shouye_todo_num">#ff9600</color>
+    <color name="shouye_top_back">#00a8ff</color>
+    <color name="shouye_user_cash">#FFFFFF</color>
+    <color name="shouye_user_lv">#ffd800</color>
+    <color name="shouye_user_name">#FFFFFF</color>
+    <color name="tx_back_color">#eaeaea</color>
+    <color name="tx_confirm_button">#00a8ff</color>
+    <color name="tx_detail_back_color">#eaeaea</color>
+    <color name="tx_detail_chose_color">#00a8ff</color>
+    <color name="tx_detail_unchose_color">#000000</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="type_code">#999999</color>
+    <color name="vip_line">#ff000c</color>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="ArcLayout"><attr name="fromDegrees"/><attr name="toDegrees"/><attr name="childSize"/></declare-styleable>
+    <declare-styleable name="ArcMenu"><attr name="fromDegrees"/><attr name="toDegrees"/><attr name="childSize"/></declare-styleable>
+    <declare-styleable name="CustomFastScrollView"><attr format="dimension" name="overlayWidth"/><attr format="dimension" name="overlayHeight"/><attr format="dimension" name="overlayTextSize"/><attr format="dimension" name="overlayScrollThumbWidth"/></declare-styleable>
+    <declare-styleable name="RayLayout"><attr format="dimension" name="leftHolderWidth"/></declare-styleable>
+    <declare-styleable name="SegmentedControlView"><attr format="reference|color" name="firstButtonBackground"/><attr format="reference|color" name="lastButtonBackground"/></declare-styleable>
+    <declare-styleable name="SlidingSwitcherView"><attr name="auto_play"/></declare-styleable>
+    <declare-styleable name="SwipeLayout"><attr format="enum" name="drag_edge"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="top" value="2"/><enum name="bottom" value="3"/></attr><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr></declare-styleable>
+    <declare-styleable name="com.baidu.mobads.AdView"><attr format="integer" name="adSize"/><attr format="string" name="adId"/></declare-styleable>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menuChildSize">30dp</dimen>
+    <item format="float" name="menuFromDegrees" type="dimen">180.0</item>
+    <item format="float" name="menuToDegrees" type="dimen">360.0</item>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/picture_dimens.xml -->
+    <eat-comment/>
+    <dimen name="pciture_view_pager_margin">80dp</dimen>
+    <dimen name="picture_action_bar_button_margin">0dp</dimen>
+    <dimen name="picture_action_bar_height">48dp</dimen>
+    <dimen name="picture_action_bar_page_index_text_size">18dp</dimen>
+    <dimen name="picture_album_column_margin">5dp</dimen>
+    <dimen name="picture_album_item_title_height">30dp</dimen>
+    <dimen name="picture_album_text_margin">6dp</dimen>
+    <dimen name="picture_album_title_text_size">12dp</dimen>
+    <dimen name="picture_album_top_margin">10dp</dimen>
+    <dimen name="picture_album_view_margin">8dp</dimen>
+    <dimen name="picture_album_view_margin_bottom">9dp</dimen>
+    <dimen name="picture_count_text_size">12dp</dimen>
+    <dimen name="picture_loading_text_top_margin">12dp</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">40dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen>
+    <dimen name="picture_reload_text_size">16dp</dimen>
+    <dimen name="picture_user_guide_margin">8dp</dimen>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">关于捞金</string>
+    <string name="amend">还没提交，是否返回？</string>
+    <string name="app_name">快布</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+    <string name="cancel">取 消</string>
+    <string name="carts">购物车</string>
+    <string name="check_number_passward">登录失败,请检查手机号或者密码填写错误</string>
+    <string name="chongsi">登陆失败，请重试</string>
+    <string name="edit">编辑</string>
+    <string name="ex_record_notice">提示：只显示最近30天的兑换记录</string>
+    <string name="exit">亲！是否退出应用</string>
+    <string name="exitbackground">您真的要退出爱捞金吗？</string>
+    <string name="exitt">退出</string>
+    <string name="fangkui">反馈描述 </string>
+    <string name="fill_in_number">请填写手机号及密码</string>
+    <string name="guanyutitle">关于我们</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="io_exception_error">文件流异常</string>
+    <string name="jiesuojiemian">启用解锁界面</string>
+    <string name="jingbi">金币</string>
+    <string name="json_parser_failed">数据解析异常</string>
+    <string name="lianxifangshi">联系方式:  </string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_full">加载完成</string>
+    <string name="load_ing">加载中...</string>
+    <string name="load_init">数据正在初始化，请稍后...</string>
+    <string name="load_more">更多</string>
+    <string name="login_pass_hint">密码</string>
+    <string name="login_username_hint">用户名/邮箱/手机号</string>
+    <string name="moren">2b</string>
+    <string name="msg">消息</string>
+    <string name="mycarts">我的购物车</string>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="nicheng">昵称</string>
+    <string name="nodatanotice">查询结果：暂无相关记录</string>
+    <string name="noexhistorydatanotice">查询结果：暂无兑换记录</string>
+    <string name="note">注意</string>
+    <string name="ok">确 定</string>
+    <string name="password_less_6">密码不能少于6位</string>
+    <string name="regis_check_hint">输入验证码</string>
+    <string name="regis_check_notice">秒后重新获取</string>
+    <string name="regis_pass_hint">输入新密码</string>
+    <string name="regis_pass_hint_conf">确认密码</string>
+    <string name="regis_username_hint">输入手机号</string>
+    <string name="serch">搜索</string>
+    <string name="server_connect_error">连接服务器失败</string>
+    <string name="shoujihaoma">手机号码</string>
+    <string name="shouye">首页</string>
+    <string name="signed">您今天已经签到过...</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="step_text_1">1. 安装注册，试用3分钟以上(送%d金币)</string>
+    <string name="step_text_2">2. 24小时后，进入“深度任务” 然后打开试用3分钟(送%d金币)</string>
+    <string name="task_record_notice">提示：只显示最近30天的任务记录</string>
+    <string name="tikuanshezhi">提款设置</string>
+    <string name="tongzhixiaoxi">启用通知消息</string>
+    <string name="tx_confirm_bt">     提   交     </string>
+    <string name="txxiangxi">可提现金额: </string>
+    <string name="txxiangxidw"> 元</string>
+    <string name="update">检查更新</string>
+    <string name="url_code_error">url解析异常</string>
+    <string name="used_inexistence">用户名不存在,请检查手机号.新用户请注册</string>
+    <string name="wait">请等待...正在为你登陆...</string>
+    <string name="wentifankui">问题反馈</string>
+    <string name="wode">我的</string>
+    <string name="xiugaimima">修改密码</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="yanzhengma">验证码</string>
+    <string name="yihaodianjieshao">    专注品牌，贴心服务，只做第一，我们是一号店. </string>
+    <string name="youxiang">邮箱或QQ号码</string>
+    <string name="zhanghaoshezhi">账号设置</string>
+    <!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit</item>
+    </style>
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- ����title -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- ���ñ߿� -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- ���ð�͸�� -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- ����ȫ�� -->
+    </style>
+    <style name="TitleBtn">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/skin_bar_btn</item>
+    </style>
+    <style name="about_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_marginLeft">60dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="common_row_default_item_name_new">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="common_row_label_new">
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="common_row_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="detail_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/listitem_transparent_line</item>
+    </style>
+    <style name="footbar">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="frame_button">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="go_detail_new">
+        <item name="android:background">@drawable/net_setalias_go</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_width">8dip</item>
+        <item name="android:layout_height">13dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="mFullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="pingjiaRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/pingjia_ratingbar</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:maxHeight">30dp</item>
+    </style>
+    <style name="widget_listview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:listSelector">@drawable/listview_item_selector</item>
+        <item name="android:divider">@color/listitem_transparent_line</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+</resources>

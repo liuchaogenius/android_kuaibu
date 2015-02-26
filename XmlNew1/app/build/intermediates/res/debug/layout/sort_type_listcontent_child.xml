@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="5dp"
+    android:orientation="horizontal" >
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        
+        >
+        <TextView 
+            android:id="@+id/type1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:text="哈哈"
+            android:layout_marginLeft="5dp"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:background="@drawable/textview_border"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        
+        >
+        <TextView 
+            android:id="@+id/type2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:text="哈哈"
+            android:background="@drawable/textview_border"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        
+        >
+        <TextView 
+            android:id="@+id/type3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:text="哈哈"
+            android:background="@drawable/textview_border"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        
+        >
+        <TextView 
+            android:id="@+id/type4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:text="哈哈"
+            android:background="@drawable/textview_border"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginRight="5dp"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>
+<!-- From: file:/Users/shanksYao/Documents/work/XmlNew1/app/src/main/res/layout/sort_type_listcontent_child.xml -->
