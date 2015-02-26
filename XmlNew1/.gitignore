@@ -1,0 +1,9 @@
+*.iml
+*.txt
+build
+.idea
+.idea
+**/*.iml
+**/build
+.DS_Store
+local.properties
